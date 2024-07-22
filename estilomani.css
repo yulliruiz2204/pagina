@@ -1,0 +1,82 @@
+.valor {
+    border: 1px solid #f0250b;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 5px;
+    background-color: hsl(199, 76%, 67%);
+}
+.valor h3 {
+    margin-top: 0; 
+
+    }
+
+    .principio {
+        border: 1px solid #f02020;
+        padding: 10px;
+        margin: 10px 0;
+        border-radius: 2px;
+        background-color: hsl(194, 87%, 76%);
+    }
+    .principio h3 {
+        margin-top: 0;
+        font-weight: normal; /* Quitar la negrita */
+    }
+    .principio p {
+        font-weight: normal; /* Quitar la negrita */
+    }
+
+    main {
+        background-color: hsl(195, 23%, 76%); /* Fondo */
+        padding: 20px;
+        color: #0a0a0a; /* Texto en blanco para buen contraste */
+    }
+    .moving-title {
+        display: inline-block;
+        transition: transform 0.5s ease-in-out;
+        }
+        /* Estilos para el menú desplegable */
+.menu {
+    position: fixed;
+    top: 20px;
+    right: 0px;
+}
+
+.dropbtn {
+    background-color: #0a3991;
+    color: rgb(236, 226, 226);
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #c4eee7;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(216, 174, 174, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content li {
+    padding: 12px 16px;
+}
+
+.dropdown-content li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content li a:hover {
+    background-color: #575757;
+}
+
+.menu:hover .dropdown-content {
+    display: block;
+}
+
+.menu:hover .dropbtn {
+    background-color: #3e8e41;
+}
